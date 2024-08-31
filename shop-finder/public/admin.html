@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin</title>
+    <link rel="stylesheet" href="./style/admin.css">
+</head>
+<body>
+    <div class="main">
+        <div class="head">
+            <h1>Admin Panel</h1>
+        </div>
+
+        <div class="top-left">
+            <button id="register-btn" onclick="window.location.href='register.html'">Register</button>
+        </div>
+        <div class="top-right">
+            <button id="home-btn" onclick = "window.location.href='index.html'">Home</button>
+        </div>
+           
+
+        <div class="admin-actions">
+         <h2>View All Shops</h2>
+            <button id="get-shops-btn">Get All Shops</button>
+            <div id="shops-list"></div>
+
+            <div id="shops-list">
+                <table id="shops-table">
+                    <thead>
+                        <tr id="table-headers"></tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+            </div>
+            <h2>Add a Shop</h2>
+            <form id="add-shop-form">
+                <input type="text" id="shop-name" placeholder="Shop Name" required>
+                <input type="text" id="shop-location" placeholder="Location" required>
+                <input type="text" id="shop-contact-number" placeholder="Contact Number" >
+                <input type="text" id="shop-opening-hours" placeholder="Opening Hours" >
+                <input type="text" id="shop-branches" placeholder="Branches" >
+                <input type="text" id="shop-owner-name" placeholder="Owner Name" >
+                <input type="url" id="shop-website" placeholder="Website URL" >
+                <input type="text" id="shop-img" placeholder="Image URL" >
+                <textarea id="shop-description" placeholder="Description" required></textarea>
+                <input type="number" id="shop-rating" placeholder="Rating" step="0.01" min="0" max="5" >
+                <button type="submit">Add Shop</button>
+            </form>
+
+            <h2>Search Shop by ID</h2>
+            <input type="number" id="search-id" placeholder="Enter Shop ID">
+            <button id="search-id-button">Search</button>
+            <div id="search-results"></div>
+
+            <h2>Update a Shop</h2>
+            <form id="update-shop-form">
+                <input type="number" id="update-shop-id" placeholder="Shop ID" required>
+                <button type="button" id="fetch-shop-btn">Search</button>
+                
+               
+                <div id="update-fields" style="display: none;">
+                    <input type="text" id="update-shop-name" placeholder="Shop Name">
+                    <input type="text" id="update-shop-location" placeholder="Location">
+                    <input type="text" id="update-shop-contact-number" placeholder="Contact Number">
+                    <input type="text" id="update-shop-opening-hours" placeholder="Opening Hours">
+                    <input type="text" id="update-shop-branches" placeholder="Branches">
+                    <input type="text" id="update-shop-owner-name" placeholder="Owner Name">
+                    <input type="url" id="update-shop-website" placeholder="Website URL">
+                    <input type="text" id="update-shop-img" placeholder="Image URL">
+                    <textarea id="update-shop-description" placeholder="Description"></textarea>
+                    <input type="number" id="update-shop-rating" placeholder="Rating" step="0.01" min="0" max="5">
+                    <button type="submit">Update Shop</button>
+                </div>
+            </form>
+
+            <h2>Delete a Shop</h2>
+            <form id="delete-shop-form">
+                <input type="number" id="shop-id" placeholder="Shop ID" required>
+                <button type="submit">Delete Shop</button>
+            </form>
+
+            
+        </div>
+    </div>
+</body>
+<script src="./js/admin.js"></script>
+</html>

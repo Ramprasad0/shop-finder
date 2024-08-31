@@ -1,0 +1,46 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shops Near Me</title>
+    <link rel="stylesheet" href="./style/styles.css">
+</head>
+
+<body>
+    <div class="main">
+     
+        <header class="head">
+            <h1>Shops Near Me!</h1>
+        </header>
+
+  
+        <section class="search">
+            <p>Find shops by name or location:</p>
+            <div class="search-inputs">
+                <input type="text" id="search-bar" placeholder="Enter name or location..." aria-label="Search bar">
+                <select id="search-criteria" aria-label="Search criteria">
+                    <option value="location">Location</option>
+                    <option value="name">Name</option>
+                </select>
+                <button id="search-button">Search</button>
+            </div>
+        </section>
+
+        <section class="container" id="shop-list">
+            <!-- Dynamic content will be loaded here -->
+        </section>
+
+    
+        <div class="adminbt">
+            <button class="admin" onclick="window.location.href='admin.html'">Admin Panel</button>
+        </div>
+    </div>
+    <script src="./js/index.js"></script>
+</body>
+
+</html>

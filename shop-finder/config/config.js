@@ -1,0 +1,8 @@
+let Config={
+    "host":"localhost",
+    "user":"root",
+    "password":"1234",
+    "database":"hackathon"
+}
+
+module.exports=Config;

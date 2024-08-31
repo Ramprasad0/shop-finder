@@ -105,11 +105,11 @@ npm install
 ```
 ## Screenshots
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![Home Page](https://github.com/Ramprasad0/shop-finder/blob/52b3650aadd5fcf7cca45a8c0e6fbb50e27e0808/shop-finder/Screenshot%202024-08-31%20202853.png)
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![Shop details](https://github.com/Ramprasad0/shop-finder/blob/7d97e4ce8702bd9fef6bee3b3b4e7eab7f968ddf/shop-finder/Screenshot%202024-08-31%20202933.png)
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![Login Page](https://github.com/Ramprasad0/shop-finder/blob/7d97e4ce8702bd9fef6bee3b3b4e7eab7f968ddf/shop-finder/Screenshot%202024-08-31%20202734.png)
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![Admin page](https://github.com/Ramprasad0/shop-finder/blob/7d97e4ce8702bd9fef6bee3b3b4e7eab7f968ddf/shop-finder/Screenshot%202024-08-31%20202829.png)
 

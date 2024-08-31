@@ -105,7 +105,7 @@ npm install
 ```
 ## Screenshots
 
-![App Screenshot]([https://via.placeholder.com/468x300?text=App+Screenshot+Here](https://github.com/Ramprasad0/shop-finder/blob/52b3650aadd5fcf7cca45a8c0e6fbb50e27e0808/shop-finder/Screenshot%202024-08-31%20202853.png))
+![Home Page]((https://github.com/Ramprasad0/shop-finder/blob/52b3650aadd5fcf7cca45a8c0e6fbb50e27e0808/shop-finder/Screenshot%202024-08-31%20202853.png))
 
 ![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
 
